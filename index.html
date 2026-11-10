@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>João Pedro Macedo Ferreira — Bioinformatics &amp; Computational Biology</title>
+  <meta name="description" content="CV of João Pedro Macedo Ferreira, MSc student in Bioinformatics and Computational Biology (University of Coimbra): genomic pipelines and machine-learning datasets for pharmacogenomics.">
+  <meta name="author" content="João Pedro Macedo Ferreira">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="João Pedro Macedo Ferreira — Bioinformatics &amp; Computational Biology">
+  <meta property="og:description" content="Genomic pipelines and ML-ready datasets for pharmacogenomics research.">
+  <meta property="og:url" content="https://macedo204.github.io/">
+  <link rel="canonical" href="https://macedo204.github.io/">
+  <meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1214" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+  <link rel="preload" href="data/cv.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash of the wrong theme.
+    try {
+      var savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme;
+    } catch (e) { /* storage unavailable: follow the system theme */ }
+  </script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-ui="skip">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="João Pedro Macedo Ferreira — top of page">
+        <span class="brand-mark mono" aria-hidden="true">JF</span>
+        <span class="brand-name">João Pedro Macedo Ferreira</span>
+      </a>
+      <nav class="site-nav" aria-label="Sections">
+        <ul id="nav-list"></ul>
+      </nav>
+      <div class="header-controls">
+        <button type="button" class="icon-btn mono" id="lang-toggle" lang="pt" aria-label="Mudar para português">PT</button>
+        <button type="button" class="icon-btn" id="theme-toggle" aria-label="Switch theme">
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container" tabindex="-1">
+    <noscript>
+      <p class="notice">This CV is rendered with JavaScript. Contact and code: <a href="https://github.com/macedo204">github.com/macedo204</a>.</p>
+    </noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" id="footer-inner"></div>
+  </footer>
+
+  <div class="filter-chip" id="filter-chip" hidden></div>
+  <p class="visually-hidden" id="live" aria-live="polite"></p>
+</body>
+</html>

@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "about_this_file": "All CV content lives here. Text fields are either a plain string (same in every language) or {\"en\": ..., \"pt\": ..., \"pt_status\": \"review\"}. Change pt_status to \"ok\" once you have checked a Portuguese text. Any value starting with TODO is hidden on the live site and highlighted when you preview locally.",
+    "default_language": "en",
+    "last_updated": "2026-11",
+    "site_url": "https://macedo204.github.io",
+    "source_url": "https://github.com/macedo204/macedo204.github.io"
+  },
+
+  "profile": {
+    "name": "João Pedro Macedo Ferreira",
+    "monogram": "JF",
+    "photo": "assets/photo.jpg",
+    "location": "Coimbra, Portugal",
+    "title": {
+      "en": "MSc Bioinformatics & Computational Biology | Pharmacogenomics & ML",
+      "pt": "Mestrado em Bioinformática e Biologia Computacional | Farmacogenómica e ML",
+      "pt_status": "review"
+    },
+    "tagline": {
+      "en": "MSc student in Bioinformatics and Computational Biology building a whole-genome database and ML model to predict chemotherapy-induced hearing loss, within the EU-funded CHAFT project.",
+      "pt": "Estudante de mestrado em Bioinformática e Biologia Computacional a construir uma base de dados de genoma completo e um modelo de ML para prever a perda auditiva induzida por quimioterapia, no âmbito do projeto CHAFT, financiado pela UE.",
+      "pt_status": "review"
+    },
+    "summary": {
+      "en": "MSc student in Bioinformatics and Computational Biology at the University of Coimbra. Within the EU-funded CHAFT project, I build genomic pipelines and machine-learning datasets to predict cisplatin-induced ototoxicity. Background in molecular biology, with hands-on experience in Python, R and Linux. Looking for computational roles in the pharmaceutical industry and research.",
+      "pt": "Estudante de Mestrado em Bioinformática e Biologia Computacional na Universidade de Coimbra. No âmbito do projeto CHAFT, financiado pela UE, desenvolvo pipelines genómicos e conjuntos de dados para machine learning com o objetivo de prever a ototoxicidade induzida pela cisplatina. Formação de base em biologia molecular, com experiência prática em Python, R e Linux. Procuro funções computacionais na indústria farmacêutica e em investigação.",
+      "pt_status": "review"
+    }
+  },
+
+  "links": {
+    "email": "jp.macedo.ferreira@proton.me",
+    "github": "https://github.com/macedo204",
+    "linkedin": "https://www.linkedin.com/in/jo%C3%A3o-macedo-643115345/",
+    "orcid": "https://orcid.org/0009-0000-3115-0878"
+  },
+
+  "education": [
+    {
+      "id": "msc",
+      "degree": {
+        "en": "MSc in Bioinformatics and Computational Biology",
+        "pt": "Mestrado em Bioinformática e Biologia Computacional",
+        "pt_status": "review"
+      },
+      "institution": {
+        "en": "University of Coimbra",
+        "pt": "Universidade de Coimbra",
+        "pt_status": "review"
+      },
+      "start": "2025",
+      "end": "present",
+      "highlights_label": { "en": "Focus", "pt": "Áreas de foco", "pt_status": "review" },
+      "highlights": [
+        { "en": "AI in healthcare and predictive modelling", "pt": "IA na saúde e modelação preditiva", "pt_status": "review" },
+        { "en": "Bioinformatics and transcriptomics", "pt": "Bioinformática e transcriptómica", "pt_status": "review" },
+        { "en": "Computational structural biology and molecular modelling", "pt": "Biologia estrutural computacional e modelação molecular", "pt_status": "review" },
+        { "en": "Python and software integration", "pt": "Python e integração de software", "pt_status": "review" }
+      ],
+      "skills": ["python", "transcriptomics", "molmodelling", "predictive"]
+    },
+    {
+      "id": "bsc",
+      "degree": { "en": "BSc in Biology", "pt": "Licenciatura em Biologia", "pt_status": "review" },
+      "institution": { "en": "University of Coimbra", "pt": "Universidade de Coimbra", "pt_status": "review" },
+      "start": "2022",
+      "end": "2025",
+      "highlights_label": { "en": "Coursework", "pt": "Unidades curriculares", "pt_status": "review" },
+      "highlights": [
+        { "en": "Molecular biology, genetics, physiology", "pt": "Biologia molecular, genética, fisiologia", "pt_status": "review" },
+        { "en": "Biostatistics and biological data analysis", "pt": "Bioestatística e análise de dados biológicos", "pt_status": "review" },
+        { "en": "Research methodology and lab work", "pt": "Metodologia de investigação e trabalho laboratorial", "pt_status": "review" }
+      ],
+      "skills": []
+    }
+  ],
+
+  "experience": [
+    {
+      "id": "thesis",
+      "role": { "en": "MSc thesis research — CHAFT project", "pt": "Investigação de mestrado — projeto CHAFT", "pt_status": "review" },
+      "organisation": { "en": "CISUC / DEI, University of Coimbra", "pt": "CISUC / DEI, Universidade de Coimbra", "pt_status": "review" },
+      "start": "2025",
+      "end": "present",
+      "summary": {
+        "en": "Building a reproducible whole-genome database and ML model to predict cisplatin-induced hearing loss.",
+        "pt": "Construção de uma base de dados reprodutível de genoma completo e de um modelo de ML para prever a perda auditiva induzida pela cisplatina.",
+        "pt_status": "review"
+      },
+      "link": "#research",
+      "skills": ["python", "bcftools", "plink2", "ensembl", "opentargets", "gwascatalog", "parquet", "git", "bash", "wgs", "pgx", "gwas", "popgen", "reproducible"]
+    }
+  ],
+
+  "research": {
+    "id": "research-thesis",
+    "kicker": { "en": "MSc thesis · CHAFT project · In progress", "pt": "Tese de mestrado · projeto CHAFT · Em curso", "pt_status": "review" },
+    "title": {
+      "en": "A genomic database and ML model for cisplatin-induced ototoxicity",
+      "pt": "Uma base de dados genómica e um modelo de ML para a ototoxicidade induzida pela cisplatina",
+      "pt_status": "review"
+    },
+    "start": "2025",
+    "end": "present",
+    "context": {
+      "en": "Developed within the CHAFT project (Cisplatin-induced Hearing Loss Assessment via Fluorine-19 MRI & Telemonitoring), an EU INTERREG SUDOE consortium coordinated by CHU Montpellier with partners in Portugal, Spain and France, including the University of Coimbra and IPO-Porto.",
+      "pt": "Desenvolvida no âmbito do projeto CHAFT (Cisplatin-induced Hearing Loss Assessment via Fluorine-19 MRI & Telemonitoring), um consórcio europeu INTERREG SUDOE coordenado pelo CHU de Montpellier, com parceiros em Portugal, Espanha e França, incluindo a Universidade de Coimbra e o IPO-Porto.",
+      "pt_status": "review"
+    },
+    "supervisor": {
+      "en": "Prof. Joel P. Arrais — CISUC / DEI, University of Coimbra",
+      "pt": "Prof. Joel P. Arrais — CISUC / DEI, Universidade de Coimbra",
+      "pt_status": "review"
+    },
+    "summary": {
+      "en": "Building a reproducible GRCh38 genomic database from 1000 Genomes high-coverage (30x) whole-genome sequencing of 2,504 unrelated individuals, combining gene-level evidence (Open Targets, including curated cisplatin pharmacogenetics) with published GWAS hits, as the foundation for a machine-learning model that predicts cisplatin-induced hearing loss.",
+      "pt": "Construção de uma base de dados genómica reprodutível em GRCh38, a partir da sequenciação de genoma completo de alta cobertura (30x) do 1000 Genomes para 2504 indivíduos não aparentados, combinando evidência ao nível do gene (Open Targets, incluindo farmacogenética curada da cisplatina) com associações GWAS publicadas, como base para um modelo de machine learning que prevê a perda auditiva induzida pela cisplatina.",
+      "pt_status": "review"
+    },
+    "points_label": { "en": "Database v0.1", "pt": "Base de dados v0.1", "pt_status": "review" },
+    "points": [
+      {
+        "en": "Reproducible pipeline of Python scripts under git; every step writes a manifest (date, database release, settings, checksums).",
+        "pt": "Pipeline reprodutível de scripts Python sob controlo de versões (git); cada passo escreve um manifesto (data, versão da base de dados, parâmetros, checksums).",
+        "pt_status": "review"
+      },
+      {
+        "en": "43 candidate genes from Open Targets (ototoxicity, GO response to cisplatin, and curated cisplatin pharmacogenetics), mapped to GRCh38 regions via Ensembl with a ±10 kb window (40 regions, 4.19 Mb).",
+        "pt": "43 genes candidatos do Open Targets (ototoxicidade, termo GO de resposta à cisplatina e farmacogenética curada da cisplatina), mapeados para regiões GRCh38 através do Ensembl com uma janela de ±10 kb (40 regiões, 4,19 Mb).",
+        "pt_status": "review"
+      },
+      {
+        "en": "Genotypes fetched by region directly from the remote 1000 Genomes files with bcftools — megabytes instead of hundreds of GB.",
+        "pt": "Genótipos obtidos por região diretamente dos ficheiros remotos do 1000 Genomes com bcftools — megabytes em vez de centenas de GB.",
+        "pt_status": "review"
+      },
+      {
+        "en": "102,369 cleaned variants (SNVs, indels and structural variants); 78% rare (MAF < 1%); allele frequencies recomputed overall and per superpopulation and validated against 1000 Genomes.",
+        "pt": "102 369 variantes após limpeza (SNVs, indels e variantes estruturais); 78% raras (MAF < 1%); frequências alélicas recalculadas no total e por superpopulação e validadas face ao 1000 Genomes.",
+        "pt_status": "review"
+      },
+      {
+        "en": "38 GWAS Catalog SNPs from 6 cisplatin studies, all recovered in the WGS data with matching effect alleles.",
+        "pt": "38 SNPs do GWAS Catalog provenientes de 6 estudos sobre a cisplatina, todos recuperados nos dados WGS com alelos de efeito concordantes.",
+        "pt_status": "review"
+      },
+      {
+        "en": "All 15 known hearing-related pharmacogenetic variants recovered, including ACYP2 rs1872328 (intronic), which was absent from the exome data used in previous work — showing the value of WGS over exomes.",
+        "pt": "Recuperadas todas as 15 variantes farmacogenéticas conhecidas associadas à audição, incluindo ACYP2 rs1872328 (intrónica), ausente dos dados de exoma usados em trabalhos anteriores — o que mostra o valor do WGS face ao exoma.",
+        "pt_status": "review"
+      }
+    ],
+    "next": {
+      "en": "Dataset fusion, PLINK 2 conversion, ancestry principal components, polygenic and gene-level features, and ML modelling.",
+      "pt": "Fusão dos dados, conversão para PLINK 2, componentes principais de ancestralidade, variáveis poligénicas e ao nível do gene, e modelação de ML.",
+      "pt_status": "review"
+    },
+    "tools": ["python", "bcftools", "plink2", "ensembl", "opentargets", "gwascatalog", "parquet", "git", "bash"],
+    "skills": ["wgs", "pgx", "gwas", "popgen", "reproducible"],
+    "pipeline": [
+      {
+        "label": { "en": "Candidate genes", "pt": "Genes candidatos", "pt_status": "review" },
+        "sub": "Open Targets · 43 genes",
+        "text": {
+          "en": "43 candidate genes come from Open Targets, combining ototoxicity evidence, the GO term “response to cisplatin” and curated cisplatin pharmacogenetics.",
+          "pt": "Os 43 genes candidatos vêm do Open Targets, combinando evidência de ototoxicidade, o termo GO “resposta à cisplatina” e farmacogenética curada da cisplatina.",
+          "pt_status": "review"
+        }
+      },
+      {
+        "label": { "en": "GRCh38 regions", "pt": "Regiões GRCh38", "pt_status": "review" },
+        "sub": { "en": "Ensembl ±10 kb · 40 regions", "pt": "Ensembl ±10 kb · 40 regiões", "pt_status": "review" },
+        "text": {
+          "en": "Each gene is mapped to GRCh38 coordinates via Ensembl and extended by ±10 kb, giving 40 regions that span 4.19 Mb.",
+          "pt": "Cada gene é mapeado para coordenadas GRCh38 através do Ensembl e alargado em ±10 kb, resultando em 40 regiões que somam 4,19 Mb.",
+          "pt_status": "review"
+        }
+      },
+      {
+        "label": { "en": "Remote genotype fetch", "pt": "Extração remota", "pt_status": "review" },
+        "sub": "bcftools · 1000G 30x",
+        "text": {
+          "en": "bcftools reads only these regions directly from the remote 1000 Genomes 30x WGS files for 2,504 unrelated people — megabytes instead of hundreds of GB.",
+          "pt": "O bcftools lê apenas estas regiões diretamente dos ficheiros WGS 30x remotos do 1000 Genomes, para 2504 pessoas não aparentadas — megabytes em vez de centenas de GB.",
+          "pt_status": "review"
+        }
+      },
+      {
+        "label": { "en": "Cleaning & QC", "pt": "Limpeza e QC", "pt_status": "review" },
+        "sub": { "en": "102,369 variants", "pt": "102 369 variantes", "pt_status": "review" },
+        "text": {
+          "en": "Cleaning leaves 102,369 variants (SNVs, indels and structural variants); allele frequencies are recomputed overall and per superpopulation and validated against 1000 Genomes.",
+          "pt": "A limpeza resulta em 102 369 variantes (SNVs, indels e variantes estruturais); as frequências alélicas são recalculadas no total e por superpopulação e validadas face ao 1000 Genomes.",
+          "pt_status": "review"
+        }
+      },
+      {
+        "label": { "en": "GWAS layer", "pt": "Camada GWAS", "pt_status": "review" },
+        "sub": "GWAS Catalog · 38 SNPs",
+        "text": {
+          "en": "38 SNPs from 6 cisplatin studies in the GWAS Catalog are added; all are recovered in the WGS data with matching effect alleles.",
+          "pt": "São adicionados 38 SNPs de 6 estudos sobre a cisplatina do GWAS Catalog; todos são recuperados nos dados WGS com alelos de efeito concordantes.",
+          "pt_status": "review"
+        }
+      },
+      {
+        "label": { "en": "Fused database → ML", "pt": "Base integrada → ML", "pt_status": "review" },
+        "sub": { "en": "PLINK 2 · features", "pt": "PLINK 2 · variáveis", "pt_status": "review" },
+        "status": "in_progress",
+        "text": {
+          "en": "PLINK 2 genotypes are combined with the annotated variant tables, then polygenic and gene-level features are built for a model that predicts cisplatin-induced hearing loss.",
+          "pt": "Os genótipos em PLINK 2 são combinados com as tabelas de variantes anotadas e, depois, são construídas variáveis poligénicas e ao nível do gene para um modelo que prevê a perda auditiva induzida pela cisplatina.",
+          "pt_status": "review"
+        }
+      }
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "mri",
+      "title": {
+        "en": "Human-in-the-loop AI tool for MRI brain-tumour classification",
+        "pt": "Ferramenta de IA com humano no circuito para classificação de tumores cerebrais em ressonância magnética",
+        "pt_status": "review"
+      },
+      "start": "2025-09",
+      "end": "2025-12",
+      "summary": {
+        "en": "Team project (3 students, Human-Centric AI course): a decision-support desktop tool that classifies brain MRI scans into glioma, meningioma, pituitary tumour or no tumour, and keeps learning from clinicians' corrections through active learning.",
+        "pt": "Projeto de grupo (3 estudantes, unidade curricular de Human-Centric AI): uma ferramenta desktop de apoio à decisão que classifica imagens de ressonância magnética cerebral em glioma, meningioma, tumor pituitário ou sem tumor, e continua a aprender com as correções dos clínicos através de active learning.",
+        "pt_status": "review"
+      },
+      "problem": {
+        "en": "Labelling medical images is expensive: build an accurate tumour classifier from few labelled scans, inside a tool clinicians can trust and correct.",
+        "pt": "Rotular imagens médicas é dispendioso: construir um classificador de tumores preciso a partir de poucas imagens rotuladas, numa ferramenta em que os clínicos possam confiar e que possam corrigir.",
+        "pt_status": "review"
+      },
+      "did": [
+        { "en": "Prepared a public Kaggle dataset of ~22,000 brain MRI images (4 classes): duplicate removal and resolution standardisation", "pt": "Preparação de um conjunto público do Kaggle com ~22 000 imagens de ressonância magnética cerebral (4 classes): remoção de duplicados e normalização da resolução", "pt_status": "review" },
+        { "en": "Fine-tuned a pretrained EfficientNet-B0 (PyTorch) with entropy-based active learning: starting from ~600 labelled images and adding the 20 most uncertain per round", "pt": "Afinação de uma EfficientNet-B0 pré-treinada (PyTorch) com active learning baseado em entropia: a partir de ~600 imagens rotuladas, adicionando as 20 mais incertas em cada ronda", "pt_status": "review" },
+        { "en": "Built the desktop interface in Python (CustomTkinter) with an SQLite database: user login with hashed passwords, prediction confidence, history, duplicate-image detection, and clinician corrections fed back into retraining", "pt": "Desenvolvimento da interface desktop em Python (CustomTkinter) com base de dados SQLite: login com palavras-passe cifradas, confiança da previsão, histórico, deteção de imagens duplicadas e correções dos clínicos reintegradas no retreino", "pt_status": "review" }
+      ],
+      "result": {
+        "en": "Test accuracy rose from 41% to a best of 94.8% on a fixed, balanced held-out set of 4,404 images.",
+        "pt": "A exatidão no teste subiu de 41% para um máximo de 94,8% num conjunto de teste fixo e equilibrado de 4404 imagens.",
+        "pt_status": "review"
+      },
+      "repo": null,
+      "skills": ["python", "pytorch", "deeplearning", "activelearning", "customtkinter", "sqlite", "mldata", "predictive"]
+    },
+    {
+      "id": "microplastics",
+      "title": {
+        "en": "Applied Biology Project II — Microplastics in seabirds",
+        "pt": "Projeto de Biologia Aplicada II — Microplásticos em aves marinhas",
+        "pt_status": "review"
+      },
+      "start": "2025-01",
+      "end": "2025-06",
+      "summary": {
+        "en": "Lab and statistical study of microplastics in seabirds, combining chemical digestion and extraction with data analysis in R.",
+        "pt": "Estudo laboratorial e estatístico de microplásticos em aves marinhas, combinando digestão e extração química com análise de dados em R.",
+        "pt_status": "review"
+      },
+      "did": [
+        { "en": "Statistical analysis of ecological/biological data in R", "pt": "Análise estatística de dados ecológicos/biológicos em R", "pt_status": "review" },
+        { "en": "Chemical digestion and extraction in the lab", "pt": "Digestão e extração química em laboratório", "pt_status": "review" },
+        { "en": "Built prey reference collections", "pt": "Construção de coleções de referência de presas", "pt_status": "review" }
+      ],
+      "repo": null,
+      "skills": ["r"]
+    }
+  ],
+
+  "skills": [
+    {
+      "id": "programming",
+      "label": { "en": "Programming & data", "pt": "Programação e dados", "pt_status": "review" },
+      "items": [
+        { "id": "python", "label": "Python" },
+        { "id": "r", "label": "R" },
+        { "id": "bash", "label": "Linux / Bash", "short": "Linux" },
+        { "id": "git", "label": "Git" },
+        { "id": "sqlite", "label": "SQLite" },
+        { "id": "parquet", "label": "Parquet" }
+      ]
+    },
+    {
+      "id": "bioinformatics",
+      "label": { "en": "Bioinformatics & genomics", "pt": "Bioinformática e genómica", "pt_status": "review" },
+      "items": [
+        {
+          "id": "wgs",
+          "label": { "en": "WGS data", "pt": "Dados WGS", "pt_status": "review" },
+          "short": { "en": "Genomics (WGS)", "pt": "Genómica (WGS)", "pt_status": "review" }
+        },
+        {
+          "id": "bcftools",
+          "label": { "en": "Variant processing (bcftools)", "pt": "Processamento de variantes (bcftools)", "pt_status": "review" },
+          "short": "bcftools"
+        },
+        { "id": "plink2", "label": "PLINK 2" },
+        { "id": "ensembl", "label": "Ensembl" },
+        { "id": "opentargets", "label": "Open Targets" },
+        { "id": "gwascatalog", "label": "GWAS Catalog" },
+        { "id": "transcriptomics", "label": { "en": "Transcriptomics", "pt": "Transcriptómica", "pt_status": "review" } }
+      ]
+    },
+    {
+      "id": "genetics",
+      "label": { "en": "Genetics", "pt": "Genética", "pt_status": "review" },
+      "items": [
+        { "id": "pgx", "label": { "en": "Pharmacogenomics", "pt": "Farmacogenómica", "pt_status": "review" } },
+        { "id": "gwas", "label": "GWAS" },
+        {
+          "id": "popgen",
+          "label": { "en": "Population genetics (allele frequencies, superpopulations)", "pt": "Genética populacional (frequências alélicas, superpopulações)", "pt_status": "review" },
+          "short": { "en": "Population genetics", "pt": "Genética populacional", "pt_status": "review" }
+        }
+      ]
+    },
+    {
+      "id": "ml",
+      "label": { "en": "Machine learning", "pt": "Machine learning", "pt_status": "review" },
+      "items": [
+        { "id": "predictive", "label": { "en": "Predictive modelling", "pt": "Modelação preditiva", "pt_status": "review" } },
+        { "id": "pytorch", "label": "PyTorch" },
+        { "id": "deeplearning", "label": { "en": "Deep learning (CNNs, transfer learning)", "pt": "Deep learning (CNNs, transfer learning)", "pt_status": "review" }, "short": "Deep learning" },
+        { "id": "activelearning", "label": "Active learning" },
+        { "id": "mldata", "label": { "en": "ML-ready dataset design", "pt": "Desenho de conjuntos de dados para ML", "pt_status": "review" } }
+      ]
+    },
+    {
+      "id": "structural",
+      "label": { "en": "Structural biology & cheminformatics", "pt": "Biologia estrutural e quimioinformática", "pt_status": "review" },
+      "items": [
+        { "id": "haddock", "label": "HADDOCK" },
+        { "id": "pymol", "label": "PyMOL" },
+        { "id": "openbabel", "label": "Open Babel" },
+        { "id": "molmodelling", "label": { "en": "Molecular modelling", "pt": "Modelação molecular", "pt_status": "review" } },
+        { "id": "cheminformatics", "label": { "en": "Cheminformatics", "pt": "Quimioinformática", "pt_status": "review" } }
+      ]
+    },
+    {
+      "id": "entry-tags",
+      "show_in_skills": false,
+      "note": "Tags used on individual entries but not listed in the Skills section.",
+      "items": [
+        { "id": "customtkinter", "label": "CustomTkinter" },
+        { "id": "reproducible", "label": { "en": "Reproducible pipelines", "pt": "Pipelines reprodutíveis", "pt_status": "review" } }
+      ]
+    }
+  ],
+
+  "activities": [
+    {
+      "id": "biotopo",
+      "title": "Revista Biótopo",
+      "organisation": { "en": "Biology Students' Nucleus (NEB/AAC)", "pt": "Núcleo de Estudantes de Biologia (NEB/AAC)", "pt_status": "review" },
+      "role": { "en": "Translator and science writer", "pt": "Tradutor e autor de artigos de divulgação", "pt_status": "review" },
+      "start": "2025-09",
+      "end": "2026-08",
+      "points": [
+        { "en": "Translation of the magazine", "pt": "Tradução da revista", "pt_status": "review" },
+        { "en": "Development and management of the magazine's website", "pt": "Desenvolvimento e gestão do site da revista", "pt_status": "review" },
+        { "en": "Writing science outreach articles", "pt": "Escrita de artigos de divulgação científica", "pt_status": "review" }
+      ],
+      "print_line": {
+        "en": "Revista Biótopo (NEB/AAC) — translation, website development and management, science outreach articles.",
+        "pt": "Revista Biótopo (NEB/AAC) — tradução, desenvolvimento e gestão do site, artigos de divulgação científica.",
+        "pt_status": "review"
+      }
+    },
+    {
+      "id": "neb",
+      "title": { "en": "Biology Students' Nucleus (NEB/AAC)", "pt": "Núcleo de Estudantes de Biologia (NEB/AAC)", "pt_status": "review" },
+      "role": { "en": "Plenary Board member (2023–2024); Pedagogical Department member (2024–2025)", "pt": "Membro da Mesa do Plenário (2023–2024); membro do Departamento Pedagógico (2024–2025)", "pt_status": "review" },
+      "start": "2023",
+      "end": "2025",
+      "print_line": {
+        "en": "Biology Students' Nucleus (NEB/AAC) — Plenary Board (2023–24), Pedagogical Department (2024–25).",
+        "pt": "Núcleo de Estudantes de Biologia (NEB/AAC) — Mesa do Plenário (2023–24), Departamento Pedagógico (2024–25).",
+        "pt_status": "review"
+      }
+    },
+    {
+      "id": "queima",
+      "title": "Queima das Fitas de Coimbra",
+      "role": { "en": "Logistics team, organising committee", "pt": "Equipa de logística, comissão organizadora", "pt_status": "review" },
+      "date_text": "2024, 2025",
+      "description": {
+        "en": "Portugal's oldest and largest academic festival: a week of concert nights with a venue capacity of 25,000 people per night, run by the Associação Académica de Coimbra.",
+        "pt": "A mais antiga e maior festa académica de Portugal: uma semana de noites de concertos num recinto com capacidade para 25 000 pessoas por noite, organizada pela Associação Académica de Coimbra.",
+        "pt_status": "review"
+      },
+      "points": [
+        { "en": "Venue setup and teardown (stages, stands, barriers)", "pt": "Montagem e desmontagem do recinto (palcos, stands, barreiras)", "pt_status": "review" },
+        { "en": "Real-time problem-solving during event nights", "pt": "Resolução de problemas em tempo real durante as noites do evento", "pt_status": "review" }
+      ]
+    },
+    {
+      "id": "latas",
+      "title": "Festa das Latas",
+      "role": { "en": "Logistics team, organising committee", "pt": "Equipa de logística, comissão organizadora", "pt_status": "review" },
+      "date_text": "2024",
+      "description": {
+        "en": "Coimbra's week-long annual academic welcome festival for new students.",
+        "pt": "A festa académica anual de receção aos novos estudantes de Coimbra, com a duração de uma semana.",
+        "pt_status": "review"
+      },
+      "points": [
+        { "en": "Venue setup and teardown", "pt": "Montagem e desmontagem do recinto", "pt_status": "review" },
+        { "en": "Real-time problem-solving during event nights", "pt": "Resolução de problemas em tempo real durante as noites do evento", "pt_status": "review" }
+      ]
+    }
+  ],
+
+  "activities_print_merge": [
+    {
+      "replaces": ["queima", "latas"],
+      "text": {
+        "en": "Logistics team — Queima das Fitas (2024, 2025; 25,000-person venue) and Festa das Latas (2024): venue setup/teardown and live operations.",
+        "pt": "Equipa de logística — Queima das Fitas (2024, 2025; recinto para 25 000 pessoas) e Festa das Latas (2024): montagem/desmontagem do recinto e operações ao vivo.",
+        "pt_status": "review"
+      }
+    }
+  ],
+
+  "other_experience": [
+    {
+      "id": "rapido",
+      "role": { "en": "Technical Assistant", "pt": "Assistente Técnico", "pt_status": "review" },
+      "organisation": "Rápido Sousa",
+      "start": "2026",
+      "end": "2026",
+      "date_text": { "en": "Summer 2026", "pt": "Verão de 2026", "pt_status": "review" },
+      "summary": {
+        "en": "Hardware troubleshooting; automotive transponder key programming.",
+        "pt": "Resolução de problemas de hardware; programação de chaves automóveis com transponder.",
+        "pt_status": "review"
+      }
+    },
+    {
+      "id": "rates",
+      "role": { "en": "Activity Monitor", "pt": "Monitor de Atividades", "pt_status": "review" },
+      "organisation": "Rates Parque",
+      "start": "2024",
+      "end": "2024",
+      "date_text": { "en": "Summer 2024", "pt": "Verão de 2024", "pt_status": "review" },
+      "summary": {
+        "en": "Group management and safety in outdoor activities.",
+        "pt": "Gestão de grupos e segurança em atividades ao ar livre.",
+        "pt_status": "review"
+      }
+    }
+  ],
+
+  "languages": [
+    {
+      "name": { "en": "Portuguese", "pt": "Português", "pt_status": "review" },
+      "level": { "en": "Native", "pt": "Nativo", "pt_status": "review" }
+    },
+    {
+      "name": { "en": "English", "pt": "Inglês", "pt_status": "review" },
+      "level": "C1–C2"
+    },
+    {
+      "name": { "en": "Spanish", "pt": "Espanhol", "pt_status": "review" },
+      "level": { "en": "B2 comprehension · A2 spoken/written", "pt": "B2 compreensão · A2 oral/escrita", "pt_status": "review" }
+    }
+  ],
+
+  "ui": {
+    "pt_status": "review",
+    "en": {
+      "skip": "Skip to content",
+      "nav_about": "About",
+      "nav_research": "Research",
+      "nav_skills": "Skills",
+      "nav_projects": "Projects",
+      "nav_timeline": "Education",
+      "nav_activities": "Activities",
+      "about": "About",
+      "research": "Research",
+      "skills": "Skills",
+      "projects": "Projects",
+      "timeline": "Education & experience",
+      "education": "Education",
+      "activities": "Leadership & activities",
+      "other": "Other experience",
+      "languages": "Languages",
+      "location": "Based in",
+      "download_pdf": "Download PDF",
+      "email": "Email",
+      "present": "present",
+      "ongoing": "Ongoing",
+      "kind_education": "Education",
+      "kind_experience": "Research",
+      "details": "Details",
+      "problem": "Problem",
+      "did": "What I did",
+      "tools": "Tools",
+      "result": "Result",
+      "repo": "Code on GitHub",
+      "context": "Context",
+      "overview": "Summary",
+      "next": "Next",
+      "in_progress": "In progress",
+      "supervisor": "Supervisor",
+      "pipeline_label": "Thesis pipeline — select a step",
+      "pipeline_hint": "Select a step to see what it does.",
+      "step": "Step {n} of {total}",
+      "see_research": "See the research section",
+      "skills_hint": "Select a skill to highlight the work where I used it.",
+      "filter_status": "{skill}: {n} matching entries",
+      "filter_status_one": "{skill}: 1 matching entry",
+      "filter_none": "Showing all entries",
+      "clear_filter": "Clear filter",
+      "theme_to_dark": "Switch to dark theme",
+      "theme_to_light": "Switch to light theme",
+      "lang_switch": "Mudar para português",
+      "updated": "Last updated",
+      "source": "Source on GitHub"
+    },
+    "pt": {
+      "skip": "Saltar para o conteúdo",
+      "nav_about": "Sobre",
+      "nav_research": "Investigação",
+      "nav_skills": "Competências",
+      "nav_projects": "Projetos",
+      "nav_timeline": "Formação",
+      "nav_activities": "Atividades",
+      "about": "Sobre",
+      "research": "Investigação",
+      "skills": "Competências",
+      "projects": "Projetos",
+      "timeline": "Formação e experiência",
+      "education": "Formação",
+      "activities": "Liderança e atividades",
+      "other": "Outra experiência",
+      "languages": "Línguas",
+      "location": "Localização",
+      "download_pdf": "Descarregar PDF",
+      "email": "Email",
+      "present": "presente",
+      "ongoing": "Em curso",
+      "kind_education": "Formação",
+      "kind_experience": "Investigação",
+      "details": "Detalhes",
+      "problem": "Problema",
+      "did": "O que fiz",
+      "tools": "Ferramentas",
+      "result": "Resultado",
+      "repo": "Código no GitHub",
+      "context": "Contexto",
+      "overview": "Resumo",
+      "next": "Próximos passos",
+      "in_progress": "Em curso",
+      "supervisor": "Orientador",
+      "pipeline_label": "Pipeline da tese — selecione um passo",
+      "pipeline_hint": "Selecione um passo para ver o que faz.",
+      "step": "Passo {n} de {total}",
+      "see_research": "Ver a secção de investigação",
+      "skills_hint": "Selecione uma competência para destacar o trabalho onde a usei.",
+      "filter_status": "{skill}: {n} entradas correspondentes",
+      "filter_status_one": "{skill}: 1 entrada correspondente",
+      "filter_none": "A mostrar todas as entradas",
+      "clear_filter": "Limpar filtro",
+      "theme_to_dark": "Mudar para tema escuro",
+      "theme_to_light": "Mudar para tema claro",
+      "lang_switch": "Switch to English",
+      "updated": "Última atualização",
+      "source": "Código-fonte no GitHub"
+    }
+  }
+}
