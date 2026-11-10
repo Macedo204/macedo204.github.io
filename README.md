@@ -73,7 +73,7 @@ when you have it. Example:
 | `links` | `email`, `github`, `linkedin`, `orcid` (full URLs; the email is just the address) |
 | `education` | degrees; `highlights` are shown when the timeline entry is expanded and in print |
 | `experience` | main experience shown in the timeline (currently the thesis) |
-| `research` | the featured thesis section: `summary`, key `points`, `next`, `tools` and `skills` tag lists, and the 6 `pipeline` steps of the diagram (a step with `"status": "in_progress"` is drawn dashed with an "in progress" badge) |
+| `research` | the featured thesis section: `summary`, key `points`, `next`, `tools` and `skills` tag lists, and the `pipeline` steps of the diagram (a step with `"status": "in_progress"` is drawn dashed with an "in progress" badge; `"status": "planned"` is dotted and greyed out with a "planned" badge) |
 | `projects` | project cards: `summary`, then `problem` → `did` → tools (`skills`) → `result`; `repo` link |
 | `skills` | groups of skills. Each skill has an `id` and a `label`; an optional `short` label is used on entry tags (e.g. "bcftools" instead of "Variant processing (bcftools)"). Set `"confirmed": false` to hide a skill on the live site. A group with `"show_in_skills": false` holds tags used on entries but not listed in the Skills section (e.g. CustomTkinter) |
 | `activities` | leadership & activities; `print_line` is the one-line version used in the PDF |

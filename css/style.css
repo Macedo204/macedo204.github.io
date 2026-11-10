@@ -633,6 +633,10 @@ main { counter-reset: section; }
 .pipe-sub { font: 400 11.5px var(--font-mono); fill: var(--muted); }
 .pipe-num { font-size: 12px; }
 .pipe-node.is-progress rect { stroke-dasharray: 6 4; stroke: var(--accent); }
+.pipe-node.is-planned rect { stroke-dasharray: 2 4; }
+.pipe-node.is-planned:not(.is-active) rect { fill: transparent; }
+.pipe-node.is-planned:not(.is-active) .pipe-label { fill: var(--muted); }
+.pipe-node.is-planned:not(.is-active) .pipe-badge { fill: var(--muted); }
 .pipe-badge { font: 500 9.5px var(--font-mono); letter-spacing: 0.06em; fill: var(--accent-strong); }
 :root[data-theme="dark"] .pipe-badge { fill: var(--accent); }
 .pipe-badge-text {

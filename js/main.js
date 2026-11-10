@@ -309,6 +309,10 @@
           langList)));
   }
 
+  // Pipeline steps can be marked "in_progress" or "planned"; returns the label to show, or ''.
+  const STEP_STATUS = { in_progress: { key: 'in_progress', cls: 'is-progress' }, planned: { key: 'planned', cls: 'is-planned' } };
+  const stepStatus = (step) => (STEP_STATUS[step.status] ? ui(STEP_STATUS[step.status].key) : '');
+
   function renderResearch() {
     const r = state.cv.research;
     const dates = dateRange(r);
@@ -322,14 +326,14 @@
 
     const fact = (label, value) => (value ? [h('dt', { class: 'label mono' }, label), h('dd', null, value)] : null);
     const points = (r.points || []).filter(shown);
-    const inProgress = (step) => (step.status === 'in_progress' ? ` (${ui('in_progress').toLowerCase()})` : '');
+    const statusNote = (step) => (stepStatus(step) ? ` (${stepStatus(step).toLowerCase()})` : '');
 
     const article = h('article', { class: 'feature card', 'data-skills': [...(r.tools || []), ...(r.skills || [])].join(' ') },
       h('p', { class: 'kicker mono' }, txt(r.kicker), dates && [' · ', dates]),
       h('h3', { class: 'feature-title' }, txt(r.title)),
       h('p', { class: 'feature-context' }, txt(r.context)),
       figure,
-      h('p', { class: 'print-only print-chain' }, steps.map((s) => t(s.label) + inProgress(s)).join('  ›  ')),
+      h('p', { class: 'print-only print-chain' }, steps.map((s) => t(s.label) + statusNote(s)).join('  ›  ')),
       h('dl', { class: 'facts' },
         fact(ui('overview'), shown(r.summary) && txt(r.summary)),
         points.length > 0 && fact(txt(r.points_label), h('ul', { class: 'bullets' }, points.map((x) => h('li', null, txt(x))))),
@@ -405,20 +409,20 @@
       const { x, y } = pos(i);
       const num = String(i + 1).padStart(2, '0');
       const label = t(step.label);
-      const progress = step.status === 'in_progress';
+      const status = stepStatus(step);
       const g = s('g', {
-        class: 'pipe-node' + (progress ? ' is-progress' : ''),
+        class: 'pipe-node' + (status ? ` ${STEP_STATUS[step.status].cls}` : ''),
         role: 'button',
         tabindex: '0',
         'data-step': i,
         'aria-pressed': String(i === state.step),
-        'aria-label': `${num}. ${label}` + (progress ? ` (${ui('in_progress')})` : ''),
+        'aria-label': `${num}. ${label}` + (status ? ` (${status})` : ''),
         style: `--i:${i}`,
       });
       g.append(s('rect', { x, y, width: W, height: H, rx: 10 }));
-      if (progress) {
+      if (status) {
         g.append(s('text', { class: 'pipe-badge', x: x + W - 12, y: vertical ? y + 43 : y + 20, 'text-anchor': 'end' },
-          ui('in_progress').toUpperCase()));
+          status.toUpperCase()));
       }
       if (vertical) {
         g.append(s('text', { class: 'pipe-num', x: x + 16, y: y + H / 2 + 4 }, num));
@@ -475,7 +479,7 @@
     panel.replaceChildren();
     append(panel, [
       h('p', { class: 'pipe-step mono' }, ui('step', { n: i + 1, total: steps.length }), ' · ', t(step.label),
-        step.status === 'in_progress' && h('span', { class: 'pipe-badge-text' }, ui('in_progress'))),
+        stepStatus(step) && h('span', { class: 'pipe-badge-text' }, stepStatus(step))),
       h('p', null, txt(step.text)),
       PREVIEW && step.todo ? h('p', null, txt(step.todo)) : null,
     ]);

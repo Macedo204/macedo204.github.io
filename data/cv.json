@@ -18,8 +18,8 @@
       "pt_status": "review"
     },
     "tagline": {
-      "en": "MSc student in Bioinformatics and Computational Biology building a whole-genome database and ML model to predict chemotherapy-induced hearing loss, within the EU-funded CHAFT project.",
-      "pt": "Estudante de mestrado em Bioinformática e Biologia Computacional a construir uma base de dados de genoma completo e um modelo de ML para prever a perda auditiva induzida por quimioterapia, no âmbito do projeto CHAFT, financiado pela UE.",
+      "en": "MSc student in Bioinformatics and Computational Biology developing a machine-learning model to predict chemotherapy-induced hearing loss from whole-genome data, within the EU-funded CHAFT project.",
+      "pt": "Estudante de mestrado em Bioinformática e Biologia Computacional a desenvolver um modelo de machine learning para prever a perda auditiva induzida por quimioterapia a partir de dados de genoma completo, no âmbito do projeto CHAFT, financiado pela UE.",
       "pt_status": "review"
     },
     "summary": {
@@ -84,12 +84,12 @@
       "start": "2025",
       "end": "present",
       "summary": {
-        "en": "Building a reproducible whole-genome database and ML model to predict cisplatin-induced hearing loss.",
-        "pt": "Construção de uma base de dados reprodutível de genoma completo e de um modelo de ML para prever a perda auditiva induzida pela cisplatina.",
+        "en": "Developing an ML model to predict cisplatin-induced hearing loss, trained on a whole-genome database I am building and designed to be fine-tuned on real CHAFT patient data.",
+        "pt": "Desenvolvimento de um modelo de ML para prever a perda auditiva induzida pela cisplatina, treinado numa base de dados de genoma completo que estou a construir e pensado para ser afinado com dados reais de doentes do CHAFT.",
         "pt_status": "review"
       },
       "link": "#research",
-      "skills": ["python", "bcftools", "plink2", "ensembl", "opentargets", "gwascatalog", "parquet", "git", "bash", "wgs", "pgx", "gwas", "popgen", "reproducible"]
+      "skills": ["python", "bcftools", "plink2", "ensembl", "opentargets", "gwascatalog", "parquet", "git", "bash", "wgs", "pgx", "gwas", "popgen", "reproducible", "predictive", "mldata"]
     }
   ],
 
@@ -97,8 +97,8 @@
     "id": "research-thesis",
     "kicker": { "en": "MSc thesis · CHAFT project · In progress", "pt": "Tese de mestrado · projeto CHAFT · Em curso", "pt_status": "review" },
     "title": {
-      "en": "A genomic database and ML model for cisplatin-induced ototoxicity",
-      "pt": "Uma base de dados genómica e um modelo de ML para a ototoxicidade induzida pela cisplatina",
+      "en": "Predicting cisplatin-induced hearing loss with machine learning on whole-genome data",
+      "pt": "Previsão da perda auditiva induzida pela cisplatina com machine learning em dados de genoma completo",
       "pt_status": "review"
     },
     "start": "2025",
@@ -114,11 +114,11 @@
       "pt_status": "review"
     },
     "summary": {
-      "en": "Building a reproducible GRCh38 genomic database from 1000 Genomes high-coverage (30x) whole-genome sequencing of 2,504 unrelated individuals, combining gene-level evidence (Open Targets, including curated cisplatin pharmacogenetics) with published GWAS hits, as the foundation for a machine-learning model that predicts cisplatin-induced hearing loss.",
-      "pt": "Construção de uma base de dados genómica reprodutível em GRCh38, a partir da sequenciação de genoma completo de alta cobertura (30x) do 1000 Genomes para 2504 indivíduos não aparentados, combinando evidência ao nível do gene (Open Targets, incluindo farmacogenética curada da cisplatina) com associações GWAS publicadas, como base para um modelo de machine learning que prevê a perda auditiva induzida pela cisplatina.",
+      "en": "The goal is a machine-learning model that predicts which patients will lose hearing from cisplatin chemotherapy, based on their genome. It works in three stages: (1) build a reproducible GRCh38 genomic database from 1000 Genomes high-coverage (30x) whole-genome sequencing of 2,504 unrelated individuals, combining gene-level evidence (Open Targets, including curated cisplatin pharmacogenetics) with published GWAS hits; (2) develop and compare models on this data, using simulated outcomes with known effects to test what the models can and cannot detect; (3) fine-tune and evaluate the model on real CHAFT patient data as it becomes available.",
+      "pt": "O objetivo é um modelo de machine learning que prevê, a partir do genoma, que doentes vão perder audição com a quimioterapia com cisplatina. O trabalho tem três fases: (1) construir uma base de dados genómica reprodutível em GRCh38, a partir da sequenciação de genoma completo de alta cobertura (30x) do 1000 Genomes para 2504 indivíduos não aparentados, combinando evidência ao nível do gene (Open Targets, incluindo farmacogenética curada da cisplatina) com associações GWAS publicadas; (2) desenvolver e comparar modelos nestes dados, usando desfechos simulados com efeitos conhecidos para testar o que os modelos conseguem ou não detetar; (3) afinar e avaliar o modelo com dados reais de doentes do CHAFT, à medida que ficarem disponíveis.",
       "pt_status": "review"
     },
-    "points_label": { "en": "Database v0.1", "pt": "Base de dados v0.1", "pt_status": "review" },
+    "points_label": { "en": "Progress so far — database v0.1", "pt": "Progresso até agora — base de dados v0.1", "pt_status": "review" },
     "points": [
       {
         "en": "Reproducible pipeline of Python scripts under git; every step writes a manifest (date, database release, settings, checksums).",
@@ -152,12 +152,12 @@
       }
     ],
     "next": {
-      "en": "Dataset fusion, PLINK 2 conversion, ancestry principal components, polygenic and gene-level features, and ML modelling.",
-      "pt": "Fusão dos dados, conversão para PLINK 2, componentes principais de ancestralidade, variáveis poligénicas e ao nível do gene, e modelação de ML.",
+      "en": "Machine-learning stage (planned, 2027): polygenic-score and gene-level features; models compared from a clinical-only baseline and a polygenic score + clinical model to penalised logistic regression and gradient-boosted trees, with nested cross-validation and feature selection inside the training folds only; evaluation per ancestry (including European populations close to the CHAFT cohort), calibration and interpretability; then fine-tuning and validation on real CHAFT patients, with patient data kept on local, secure machines.",
+      "pt": "Fase de machine learning (planeada, 2027): variáveis de score poligénico e ao nível do gene; comparação de modelos, desde uma referência apenas clínica e um modelo score poligénico + clínica até regressão logística penalizada e gradient-boosted trees, com validação cruzada aninhada e seleção de variáveis apenas dentro dos folds de treino; avaliação por ancestralidade (incluindo populações europeias próximas da coorte CHAFT), calibração e interpretabilidade; depois, afinação e validação com doentes reais do CHAFT, mantendo os dados dos doentes em máquinas locais e seguras.",
       "pt_status": "review"
     },
     "tools": ["python", "bcftools", "plink2", "ensembl", "opentargets", "gwascatalog", "parquet", "git", "bash"],
-    "skills": ["wgs", "pgx", "gwas", "popgen", "reproducible"],
+    "skills": ["wgs", "pgx", "gwas", "popgen", "reproducible", "predictive", "mldata"],
     "pipeline": [
       {
         "label": { "en": "Candidate genes", "pt": "Genes candidatos", "pt_status": "review" },
@@ -205,12 +205,32 @@
         }
       },
       {
-        "label": { "en": "Fused database → ML", "pt": "Base integrada → ML", "pt_status": "review" },
-        "sub": { "en": "PLINK 2 · features", "pt": "PLINK 2 · variáveis", "pt_status": "review" },
+        "label": { "en": "Fused database", "pt": "Base integrada", "pt_status": "review" },
+        "sub": { "en": "PLINK 2 · v1.0", "pt": "PLINK 2 · v1.0", "pt_status": "review" },
         "status": "in_progress",
         "text": {
-          "en": "PLINK 2 genotypes are combined with the annotated variant tables, then polygenic and gene-level features are built for a model that predicts cisplatin-induced hearing loss.",
-          "pt": "Os genótipos em PLINK 2 são combinados com as tabelas de variantes anotadas e, depois, são construídas variáveis poligénicas e ao nível do gene para um modelo que prevê a perda auditiva induzida pela cisplatina.",
+          "en": "Both sources are merged so each variant appears once, tagged by source, and stored as PLINK 2 genotypes with annotated variant tables and ancestry principal components.",
+          "pt": "As duas fontes são integradas para que cada variante apareça uma só vez, identificada pela fonte, e guardadas como genótipos PLINK 2 com tabelas de variantes anotadas e componentes principais de ancestralidade.",
+          "pt_status": "review"
+        }
+      },
+      {
+        "label": { "en": "ML model", "pt": "Modelo de ML", "pt_status": "review" },
+        "sub": { "en": "PRS · LR · GBT", "pt": "PRS · LR · GBT", "pt_status": "review" },
+        "status": "planned",
+        "text": {
+          "en": "Polygenic and gene-level features feed models ranging from a polygenic score + clinical baseline to penalised logistic regression and gradient-boosted trees, tested with nested cross-validation on simulated outcomes and evaluated per ancestry.",
+          "pt": "Variáveis poligénicas e ao nível do gene alimentam modelos que vão de uma referência score poligénico + clínica até regressão logística penalizada e gradient-boosted trees, testados com validação cruzada aninhada em desfechos simulados e avaliados por ancestralidade.",
+          "pt_status": "review"
+        }
+      },
+      {
+        "label": { "en": "Fine-tune on patients", "pt": "Afinação com doentes", "pt_status": "review" },
+        "sub": { "en": "CHAFT cohort", "pt": "Coorte CHAFT", "pt_status": "review" },
+        "status": "planned",
+        "text": {
+          "en": "The model is fine-tuned and validated on real CHAFT patients treated with cisplatin, using the same variants, allele coding and GRCh38 coordinates, with patient data kept on local, secure machines.",
+          "pt": "O modelo é afinado e validado com doentes reais do CHAFT tratados com cisplatina, usando as mesmas variantes, codificação alélica e coordenadas GRCh38, com os dados dos doentes mantidos em máquinas locais e seguras.",
           "pt_status": "review"
         }
       }
@@ -508,6 +528,7 @@
       "overview": "Summary",
       "next": "Next",
       "in_progress": "In progress",
+      "planned": "Planned",
       "supervisor": "Supervisor",
       "pipeline_label": "Thesis pipeline — select a step",
       "pipeline_hint": "Select a step to see what it does.",
@@ -558,6 +579,7 @@
       "overview": "Resumo",
       "next": "Próximos passos",
       "in_progress": "Em curso",
+      "planned": "Planeado",
       "supervisor": "Orientador",
       "pipeline_label": "Pipeline da tese — selecione um passo",
       "pipeline_hint": "Selecione um passo para ver o que faz.",
